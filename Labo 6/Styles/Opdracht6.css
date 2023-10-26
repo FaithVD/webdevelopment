@@ -1,0 +1,16 @@
+ul.checklist{
+    list-style: none;
+}
+li.checked{
+    background-image: url("../Images/download.png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 20px;
+}
+li{
+    background-image: url("../Images/download (1).png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 20px;
+}
+
