@@ -25,7 +25,7 @@ header + article{
     margin:10px;
     box-sizing: content-box;
     border: 1px solid black;
-    background-image: url("images/cocktail.gif");
+    background-image: url("../begin_cocktail_bar/images/cocktail.gif");
     background-repeat: repeat-x;
 }
 
