@@ -1,0 +1,16 @@
+.extraspace{
+    width: 48.5%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+}
+
+section{
+    width: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
