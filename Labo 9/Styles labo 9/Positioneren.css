@@ -1,0 +1,24 @@
+article:nth-child(2n+1) img{
+    float: left;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+article:nth-child(2n) img{
+    float:right;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+h2{
+    margin:0;
+}
+
+article{
+    display:inline-block;
+    border: 1px solid black;
+    padding:10px;
+    margin:10px;
+    font-size:1.25em;
+}
+

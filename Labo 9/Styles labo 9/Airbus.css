@@ -1,0 +1,143 @@
+body{
+    width:95%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 200px;
+    background-image: url("../opdracht airbus(1)/opdracht airbus/images/bgsky3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: darkblue;
+}
+
+header p{
+    margin-top: 0;
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.title{
+    font-size: 240%;
+    font-weight: bold;
+    font-style: normal;
+}
+
+header img{
+    padding-right: 90px;
+    padding-bottom: 60px;
+    position: absolute;
+    top: 50px;
+    right: 28%;
+}
+
+article{
+    float: right;
+    position: relative;
+    width: 25%;
+    background-color: #dddddd;
+    border: solid 1px #999999;
+    box-sizing: border-box;
+    margin-left: 0;
+}
+
+article p{
+    color: #666666;
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+main{
+    float: left;
+    position: relative;
+    width: 75%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right:0;
+}
+
+picture{
+    position: relative;
+    float: left;
+    display: inline-block;
+    margin: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.pictures {
+    background-color: #999999;
+    margin: 0;
+    padding: 20px;
+}
+
+.foto img{
+    width: 180px;
+    height: 180px;
+}
+
+.foto{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: dashed 1px #999999;
+    background-color: white;
+}
+
+section {
+    text-align: justify;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+span{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+aside{
+    clear: both;
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+}
+aside a{
+    color: white;
+    text-decoration: underline white;
+}
+aside a:hover{
+    color: red;
+    text-decoration: underline red;
+}
+
+aside div{
+    margin-left: 120px;
+    display: inline-block;
+}
+
+aside div div{
+    margin-left: 120px;
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background-color: white;
+}
