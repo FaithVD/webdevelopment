@@ -1,0 +1,20 @@
+body{
+    width: 95%;
+    margin-left: 20px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.row>div>div{
+    background-color: lightgrey;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.row>div:nth-child(even)>div{
+    background-color: darkgrey;
+    height: 300px;
+    margin-bottom: 10px;
+}
