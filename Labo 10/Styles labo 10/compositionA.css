@@ -1,3 +1,8 @@
+body{
+    width: 95%;
+    margin-left: 25px;
+}
+
 #a {
     border: solid black;
     border-width: 0 7.5px 15px 0;
@@ -39,4 +44,12 @@
     border-width: 12.5px 0 0 7.5px;
     min-height: 75px;
     background-color: rgb(242, 224, 122);
+}
+
+.col-3{
+    padding: 0;
+}
+
+.col-1{
+    padding: 0;
 }
