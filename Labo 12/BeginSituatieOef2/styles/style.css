@@ -75,8 +75,8 @@ main{
     justify-content: space-evenly;
 }
     nav a{
-        padding-right: 110px;
-        padding-left: 110px;
+        padding-right: 80px;
+        padding-left: 80px;
     }
 }
 
