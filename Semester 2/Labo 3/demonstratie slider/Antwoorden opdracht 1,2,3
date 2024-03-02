@@ -1,0 +1,27 @@
+Waar wordt de event listener gekoppeld aan de slider?
+In de setup.
+
+Waarom moeten we die op twee soorten events koppelen?
+
+In de CSS file wordt nergens een rode kleur opgegeven, waar wordt dan wel de rode kleur van
+het blokje ingesteld?
+in de javascript.
+
+Waarom schrijven we telkens sliders[0] en colorDemos[0] en niet gewoon sliders of
+colorDemos?
+
+Waar vind je de CSS-properties die programmatorisch werden ingesteld, zoals bv. de rode
+achtergrondkleur van het blokje?
+
+
+Opdracht 3
+Wat voor soort waarde zit er in die variabelen?
+
+Hoeveel elementen zitten er in elke verzameling?
+
+Kun je uit de HTML code afleiden waarom er dit precies zoveel zijn?
+
+Klik op het driehoekje naast de sliders lokale variabele zodat je het eerste element kunt zien. Op welke
+index positie in de lijst staat dit element?
+
+
