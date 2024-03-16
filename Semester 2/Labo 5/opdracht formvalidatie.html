@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styleFormvalidatie.css">
+    <title>formvalidatie</title>
+</head>
+<body>
+<form id="form">
+    <a href="../Semester2.html">Terug</a><br>
+
+    <label for="voornaam">voornaam</label>
+    <input type="text" name="voornaam" id="voornaam">
+    <span class="errorMededeling" id="errorVoornaam"></span><br>
+
+    <label for="familienaam">familienaam</label>
+    <input type="text" name="familienaam" id="familienaam" required="required">
+    <span class="errorMededeling" id="errorFamilienaam"></span><br>
+
+    <label for="geboortedatum">geboortedatum</label>
+    <input type="text" name="geboortedatum" id="geboortedatum" required="required">
+    <span class="errorMededeling" id="errorGeboortedatum"></span><br>
+
+    <label for="email">email</label>
+    <input type="text" name="email" id="email" required="required">
+    <span class="errorMededeling" id="errorEmail"></span><br>
+
+    <label for="aantalKinderen">aantal kinderen</label>
+    <input type="text" name="aantalKinderen" id="aantalKinderen">
+    <span class="errorMededeling" id="errorAantalKinderen"></span><br>
+
+    <input type="button" id="valideer" value="valideer">
+</form>
+
+<script src="scripts/opdrachtFormvalidatie.js"></script>
+</body>
+</html>

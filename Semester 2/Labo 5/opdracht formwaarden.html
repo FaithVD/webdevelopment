@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styleFormwaarden.css">
+    <title>formwaarden</title>
+</head>
+<body>
+<a href="../Semester2.html">Terug</a><br>
+
+<label for="roker">Is roker</label>
+<input type="checkbox" name="roker" id="roker" value="Roker"><br>
+
+<label for="Nederlands">Moedertaal</label>
+<input type="radio" name="moedertaal" id="Nederlands" value="nl">
+<label for="Nederlands">Nederlands</label>
+<input type="radio" name="moedertaal" id="Frans" value="fr">
+<label for="Frans">Frans</label>
+<input type="radio" name="moedertaal" id="Engels" value="en">
+<label for="Engels">Engels</label><br>
+
+<label for="FavBuurland">Favoriete buurland </label>
+<select name="favBuurland" id="FavBuurland">
+    <option value="Nederland" >Nederland</option>
+    <option value="Frankrijk">Frankrijk</option>
+    <option value="Duitsland">Duitsland</option>
+</select><br>
+
+<label for="bestelling">Bestelling</label>
+<select name="items" id="bestelling" multiple>
+    <option value="aardappelen">aardappelen</option>
+    <option value="brood">brood</option>
+    <option value="melk">melk</option>
+    <option value="biefstuk">biefstuk</option>
+    <option value="chips">chips</option>
+    <option value="krant">krant</option>
+</select><br>
+
+<input type="button" id="btnResultaat" value="Toon resultaat">
+
+<script src="scripts/opdrachtFormwaarden.js"></script>
+</body>
+</html>
