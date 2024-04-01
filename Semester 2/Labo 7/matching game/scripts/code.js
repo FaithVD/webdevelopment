@@ -10,14 +10,22 @@ const setup = () => {
     array = shuffleArray(array);
     let kaarten = document.getElementById('kaarten');
 
+    let index = 0;
+
     for (let i = 0; i < global.AANTAL_VERTICAAL; i++) {
         for (let j = 0; j < global.AANTAL_HORIZONTAAL; j++) {
             let kaart = document.createElement('div');
             kaart.className = 'kaartje';
-            kaart.dataset.image = array[(i * global.AANTAL_HORIZONTAAL + j) % array.length];
+            kaart.dataset.image = array[index % array.length]; // Use modulo to loop back to the beginning of the array if needed
             kaart.style.backgroundImage = `url('images/achterkant.png')`;
+
             kaarten.appendChild(kaart);
             kaart.addEventListener("click", klikOpKaartje);
+
+            console.log("Added kaartje with image: ", kaart.dataset.image);
+
+
+            index++;
         }
     }
 }
@@ -47,8 +55,8 @@ const matchendeKaarten = () => {
     if (gedraaideKaarten.length === 2) {
         let [kaart1, kaart2] = gedraaideKaarten;
         if (kaart1.dataset.image === kaart2.dataset.image) {
-            kaart1.remove();
-            kaart2.remove();
+            verwijderKaartje(kaart1)
+            verwijderKaartje(kaart2)
             global.geselecteerdeKaarten = [];
             if (document.querySelectorAll(".kaartje").length === 0) {
                 eindeSpel();
@@ -65,6 +73,11 @@ const matchendeKaarten = () => {
     }
 }
 
+const verwijderKaartje = (kaart) => {
+    let legePlaats = document.createElement("div");
+    legePlaats.className = "kaartjePlaceholder";
+    kaart.parentElement.replaceChild(legePlaats,kaart);
+}
 
 const eindeSpel = () => {
     alert('Goed zo!');

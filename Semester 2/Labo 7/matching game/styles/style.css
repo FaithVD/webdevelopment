@@ -7,6 +7,8 @@ body{
     display: grid;
     grid-template-columns: repeat(4,215px);
     grid-gap: 10px;
+    width: 900px;
+    height: 700px;
 }
 
 .kaartje{
@@ -15,4 +17,10 @@ body{
     border: solid black 1px;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.kaartjePlaceholder {
+    width: 215px;
+    height: 215px;
 }

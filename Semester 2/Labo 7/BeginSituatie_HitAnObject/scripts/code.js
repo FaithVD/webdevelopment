@@ -22,12 +22,13 @@ const setup = () => {
 const start = () => {
     let btnStart = document.getElementById("btnStart");
     btnStart.className = "hide";
+    setInterval(()=>console.log("new image"),1000);
     veranderImg();
     moveImage();
-    setInterval(()=>console.log("new image"),1000);
 }
 
 const moveImage = () => {
+    veranderImg()
     let img = document.getElementById("bomb");
     let playfield=document.getElementById("playField");
     let maxLeft=playfield.clientWidth - global.IMAGE_SIZE;
@@ -42,7 +43,7 @@ const moveImage = () => {
     img.addEventListener("click", geklikteImg);
 
     clearTimeout(global.timeoutid);
-    global.timeoutid = setTimeout(veranderImg,global.MOVE_DELAY);
+    global.timeoutid = setTimeout(moveImage,global.MOVE_DELAY);
 }
 
 const veranderImg = () =>{
