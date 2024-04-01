@@ -1,0 +1,18 @@
+body{
+    display: grid;
+    place-items: center;
+}
+
+#kaarten{
+    display: grid;
+    grid-template-columns: repeat(4,215px);
+    grid-gap: 10px;
+}
+
+.kaartje{
+    width: 215px;
+    height: 215px;
+    border: solid black 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
