@@ -102,12 +102,12 @@ const toonDataNaKlikken = () => {
     let index = lstPersonen.selectedIndex;
 
     if (index !== -1) {
-        let gekozenPersoon = personen[index];
-        document.getElementById("txtVoornaam").value = gekozenPersoon.voornaam;
-        document.getElementById("txtFamilienaam").value = gekozenPersoon.familienaam;
-        document.getElementById("txtGeboorteDatum").value = gekozenPersoon.geboorteDatum.toISOString().substring(0, 10);
-        document.getElementById("txtEmail").value = gekozenPersoon.email;
-        document.getElementById("txtAantalKinderen").value = gekozenPersoon.aantalKinderen;
+        let geselecteerdePersoon = personen[index];
+        document.getElementById("txtVoornaam").value = geselecteerdePersoon.voornaam;
+        document.getElementById("txtFamilienaam").value = geselecteerdePersoon.familienaam;
+        document.getElementById("txtGeboorteDatum").value = geselecteerdePersoon.geboorteDatum.toISOString().substring(0, 10);
+        document.getElementById("txtEmail").value = geselecteerdePersoon.email;
+        document.getElementById("txtAantalKinderen").value = geselecteerdePersoon.aantalKinderen;
     }
 };
 
