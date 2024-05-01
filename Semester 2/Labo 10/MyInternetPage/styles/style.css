@@ -1,0 +1,73 @@
+#go{
+    background-color: limegreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 640px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: solid greenyellow;
+    color: white;
+    margin-top: 10px;
+}
+
+input{
+    padding-right: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+p{
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+section{
+    margin-left: 10px;
+}
+
+
+.kaart {
+    width: calc(33.33% - 20px);
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    float: left;
+    box-sizing: border-box;
+}
+
+.kaart.google {
+    background-color: #4285f4; /* Google */
+}
+
+.kaart.youtube {
+    background-color: #ff0000; /* YouTube */
+}
+
+.kaart.twitter {
+    background-color: #1da1f2; /* Twitter */
+}
+
+.kaart.instagram {
+    background-color: #833ab4; /* Instagram */
+}
+
+.kaart-titel {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.kaart-tekst {
+    font-size: 16px;
+    margin-bottom: 5px;
+}

@@ -136,9 +136,9 @@ const kleurOrgineelVierkant = (event) => {
     let backgroundColor = event.target.closest(".vierkant").style.backgroundColor;
     let rgb = backgroundColor.slice(21).trim().replace("(", "").replace(")", "").replace(";", "").split(",");
 
-    let valueRood = rgb[0];
-    let valueGroen = rgb[1];
-    let valueBlauw = rgb[2];
+    let valueRood = rgb[0].trim();
+    let valueGroen = rgb[1].trim();
+    let valueBlauw = rgb[2].trim();
 
     event.target.closest(".vierkant").style.backgroundColor = "rgb(" + valueRood + "," + valueGroen + "," + valueBlauw + ")";
 
